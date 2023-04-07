@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600;700&family=Caveat:wght@500&family=Didact+Gothic&family=PT+Sans+Narrow&family=Rajdhani:wght@500&display=swap');
+
+/* Body Styling */
+body {
+  background-color: #E4D0D0;
+  color: #454545;
+  overflow: hidden;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+/* Top Heading Style */
+h1 {
+  text-align: center;
+}
+
+/* Glass Style & Inside Content */
+.todo-wrapper {
+  background: #F5EBEB;
+  padding: 2%;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px #454545;
+}
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #454545;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-right: 25px;
+}
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+.todo-input-item input:focus{
+  outline: 2px solid #E4D0D0;
+}
+.primarybtn{
+  background-color: #FA9884;
+  color: #454545;
+  border: none;
+  border-radius: 0px;
+  margin-top: 30px;
+  padding: 8px;
+  width: 60px;
+  cursor: pointer;
+}
+.primarybtn:hover{
+  background-color:  #FFBF9B;
+}
+
+/* First Styling Section Completed */
+
+.seconderybtn{
+  background-color: #FA9884;
+  color: #454545;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+.seconderybtn1{
+  background-color: #FFBF9B;
+  color: #454545;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
