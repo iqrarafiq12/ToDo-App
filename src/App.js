@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [isCompleteScreen, setIsCompleteScreen] = useState(false);  return (
+  const [isCompleteScreen, setIsCompleteScreen] = useState(false); 
+  
+  return (
     <div className="App">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,8 +34,8 @@ function App() {
           {/* Showing Buttons */}
           
           <div className='btn-area'>
-            <button className="seconderybtn">Todo</button>
-            <button className="seconderybtn1">Completed</button>
+            <button className={`isCompleteScreen ${isCompleteScreen===false && 'active' } `} onClick={()=> setIsCompleteScreen(false)}>Todo</button>
+            <button className={`isCompleteScreen ${isCompleteScreen===true && 'active' } `} onClick={()=> setIsCompleteScreen(true)}>Completed</button>
           </div>
 
           {/* List Area */}
