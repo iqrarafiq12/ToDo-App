@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600;700&family=Caveat:wght@500&family=Didact+Gothic&family=PT+Sans+Narrow&family=Rajdhani:wght@500&display=swap');
 
+
 /* Body Styling */
 body {
   background-color: #E4D0D0;
@@ -63,12 +64,12 @@ h1 {
   cursor: pointer;
 }
 .primarybtn:hover{
-  background-color:  #FFBF9B;
+  background-color:  #454545;
+  color: #E4D0D0;
 }
 
 /* First Styling Section Completed */
-
-.seconderybtn{
+.seconderyBtn{
   background-color: #FA9884;
   color: #454545;
   border: none;
@@ -78,8 +79,8 @@ h1 {
   width: fit-content;
   cursor: pointer;
 }
-.seconderybtn1{
-  background-color: #FFBF9B;
+.seconderyBtn1{
+  background-color: #FA9884;
   color: #454545;
   border: none;
   border-radius: 0px;
@@ -90,4 +91,24 @@ h1 {
 }
 .active{
   background-color: #FFBF9B;
+}
+
+/* todo-list */
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-area{
+  margin-bottom: 15px;
+}
+
+.todo-list-item{
+  background-color: #E4D0D0;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 18px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
