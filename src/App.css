@@ -113,12 +113,12 @@ h1 {
   padding-top: 10px;
   margin-bottom: 10px;
   box-shadow: 0px 3px 5px gray;
-  text-align: left;
 }
 
 .todo-list-item h1{
   font-size: 25px;
   color: #454545;
+  text-align: left;
   margin: 0;
 }
 .todo-list-item p{
