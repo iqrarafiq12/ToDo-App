@@ -103,6 +103,7 @@ h1 {
   margin-bottom: 15px;
 }
 
+/* Todo List */
 .todo-list-item{
   background-color: #E4D0D0;
   display: flex;
@@ -111,4 +112,34 @@ h1 {
   padding-bottom: 18px;
   padding-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 0px 3px 5px gray;
+  text-align: left;
+}
+
+.todo-list-item h1{
+  font-size: 25px;
+  color: #454545;
+  margin: 0;
+}
+.todo-list-item p{
+  font-size: 14px;
+  color: gray;
+  margin-top: 0px;
+}
+
+/* icons */
+#trash-icon{
+  font-size: 35px;
+  color: #454545;
+  cursor: pointer;
+  padding: 5px;
+}
+#trash-icon:hover{
+  color: #FF6D60;
+}
+#check-icon{
+  font-size: 35px;
+  color: #9E4784;
+  cursor: pointer;
+  padding: 5px;
 }
