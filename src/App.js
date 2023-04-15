@@ -129,7 +129,7 @@ const handleDeleteCompletedTodo =(index)=>{
             return (
               <div className="todo-list-item" key={index}>
                 <div>
-                  <h1>{item.title}</h1>
+                  <h2>{item.title}</h2>
                   <p>{item.description}</p>
                 </div>
                 {/* Icons */}
@@ -146,7 +146,7 @@ const handleDeleteCompletedTodo =(index)=>{
             return (
               <div className="todo-list-item" key={index}>
                 <div>
-                  <h1>{item.title}</h1>
+                  <h2>{item.title}</h2>
                   <p>{item.description}</p>
                   <p><small>Completed On: {item.completedOn}</small></p>
                 </div>
